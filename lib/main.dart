@@ -12,10 +12,10 @@ void main() {
 class AdHelper {
   static String get bannerAdUnitId {
     if (Platform.isAndroid) {
-      return "ca-app-pub-3155724310732667/3543605710";
+      return "ca-app-pub-";
       // return "ca-app-pub-3940256099942544/6300978111";
     } else if (Platform.isIOS) {
-      return "ca-app-pub-3940256099942544/2934735716";
+      return "ca-app-pub-";
     } else {
       throw UnsupportedError("Unsupported platform");
     }
